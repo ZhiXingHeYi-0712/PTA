@@ -1,0 +1,8 @@
+*.exe
+*.S
+*.s
+*.o
+*.obj
+
+/Draft
+/.vscode
