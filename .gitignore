@@ -3,6 +3,7 @@
 *.s
 *.o
 *.obj
+*.ps1
 
 /Draft
 /.vscode

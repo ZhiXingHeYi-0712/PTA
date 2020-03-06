@@ -8,3 +8,4 @@ int main() {
     printf("Celsius = %d", 5*(F-32)/9);
     return 0;
 }
+
