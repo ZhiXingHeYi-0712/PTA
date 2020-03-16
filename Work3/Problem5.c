@@ -5,7 +5,6 @@
 
 int mix2minute(int mix);
 int minute2mix(int minute);
-char *convertTimeWithTopZero(int time);
 
     int main()
 {
@@ -16,13 +15,10 @@ char *convertTimeWithTopZero(int time);
         return INPUT_ERROR;
     }
     int difference = minute2mix(mix2minute(arrive) - mix2minute(depart));
-    char* hour = convertTimeWithTopZero(difference / 100);
-    char* minutes = convertTimeWithTopZero(difference % 100);
+    int hour = difference / 100;
+    int minutes = difference % 100;
 
-    printf("%s:%s", hour, minutes);
-
-    free(hour);
-    free(minutes);
+    printf("%02d:%02d", hour, minutes);
 
     return 0;
 }
