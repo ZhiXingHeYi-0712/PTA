@@ -10,12 +10,12 @@
 /*
     评测数据分析：
     测试点0 - 两个不等实根
-    测试点1 - 
+    测试点1 - 一般复数根
     测试点2 - a=0,输出一个根
     测试点3 - Zero Equation
     测试点4 - Not an Equation
     测试点5 - 两个相等实根
-    测试点6 - 
+    测试点6 - 实部为0
 */
 
 _Bool isFloatEqualsZero(float num);
