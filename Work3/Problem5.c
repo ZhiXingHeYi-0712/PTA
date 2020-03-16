@@ -6,7 +6,7 @@
 int mix2minute(int mix);
 int minute2mix(int minute);
 
-    int main()
+int main()
 {
     int depart, arrive;
     if (scanf("%d %d", &depart, &arrive) < 0)
@@ -21,13 +21,6 @@ int minute2mix(int minute);
     printf("%02d:%02d", hour, minutes);
 
     return 0;
-}
-
-char * convertTimeWithTopZero(int time) {
-    char * result = calloc(sizeof(char), 3);
-    *result =  time / 10 + '0';
-    *(result + 1) = (char) time % 10 + '0';
-    return result;      // free!!!
 }
 
 int mix2minute(int mix)
