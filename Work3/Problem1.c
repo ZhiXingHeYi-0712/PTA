@@ -15,7 +15,7 @@
     测试点3 - Zero Equation
     测试点4 - Not an Equation
     测试点5 - 两个相等实根
-    测试点6 - 实部为0
+    测试点6 - 实部为0纯虚根(输出格式是0.00+1.00i\n0.00-1.00i),千万注意0的符号
 */
 
 _Bool isFloatEqualsZero(float num);

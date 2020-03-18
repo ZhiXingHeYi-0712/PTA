@@ -36,8 +36,6 @@ int main()
         return 2;
     }
 
-    
-
     // 折扣
     if (type == 'm')
     {
