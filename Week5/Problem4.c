@@ -3,6 +3,10 @@
 
 #define INPUT_ERROR 1
 
+/*
+    测试点2：BMI=25
+*/
+
 int main()
 {
     float height, weight;

@@ -18,6 +18,10 @@
 
 bool isLeapYear(int year);
 
+/*
+    ???4?2?29?
+*/
+
 int main()
 {
     int year, month, day;
