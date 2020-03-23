@@ -18,9 +18,7 @@
 
 bool isLeapYear(int year);
 
-/*
-    ???4?2?29?
-*/
+
 
 int main()
 {
@@ -41,7 +39,6 @@ int main()
         result += daysInMonth[i];
     }
     result += day;
-
     printf("%d", result);
 
     return 0;
@@ -51,7 +48,7 @@ bool isLeapYear(int year)
 {
     if (!(year % 100))
     {
-        return !(year % 400); // 整百年
+        return !(year % 400); 
     }
     else
     {
