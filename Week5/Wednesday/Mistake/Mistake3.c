@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+#define DOUBLE_MIN 1e-15
+
 int main()
 {
     double a, b;
@@ -9,7 +11,7 @@ int main()
     {
         if (op == '/')
         {
-            if (b == 0)
+            if (fabs(b) < DOUBLE_MIN)
             {
                 printf("Divisor can not be 0!");
             }
@@ -44,7 +46,8 @@ int main()
     }
     else
     {
-        (printf "Unknown operator!");
+        // (printf "Unknown operator!");
+        printf("Unknown operator!");
     }
     return 0;
 }
