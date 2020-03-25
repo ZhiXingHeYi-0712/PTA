@@ -43,6 +43,10 @@ int main()
         puts("Impossible");
     }
 
+    for (int i = 0; i < 3; i++) {
+        free(points[i]);
+    }
+
     return 0;
 }
 
