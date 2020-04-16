@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int printLine(const int, const int);
+int printLine(int, const int);
 
 int main()
 {
