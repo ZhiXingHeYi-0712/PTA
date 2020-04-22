@@ -5,9 +5,11 @@
 
 bool isLeapYear(int year);
 
-int main() {
+int main()
+{
     int year;
-    if (scanf("%d", &year) < 0) {
+    if (scanf("%d", &year) < 0)
+    {
         perror("INPUT ERR.");
         return INPUT_ERROR;
     }
@@ -21,7 +23,7 @@ bool isLeapYear(int year)
 {
     if (!(year % 100))
     {
-        return !(year % 400); // æ•´ç™¾å¹´
+        return !(year % 400);
     }
     else
     {

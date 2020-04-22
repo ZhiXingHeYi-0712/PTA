@@ -8,7 +8,7 @@ int main()
         return 1;
     }
 
-    for (int i = n; i >= 0; i--) {   // 行
+    for (int i = n; i >= 0; i--) {
         for (int j = 1; j <= i; j++) {
             printf("%4d", thisNum++);
         }
